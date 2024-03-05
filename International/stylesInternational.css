@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+}
+
+/* heading */
+
+.photo{
+    background-color: rgb(215, 215, 215);
+    display: flex;
+}
+.photo h1{
+    font-size: 50pt;
+}
+.photo img{
+    width: 50%;
+}
+  /* sections */
+
+
+  * .topic{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+  * .topic header{
+    font-size: 24pt;
+  }
+  *.topic h1{
+    font-size: 16pt;
+  }
+
+  * .topic p{
+    font-size: 14pt;
+    padding-left: 20px;
+  }
+
+/* title */
+#title{
+    background-color: black;
+    text-align: center;
+    height: 30px;
+
+}
+
+#title a{
+    
+    
+    color: white;
+    font-size: 30pt;
+    text-decoration: none;
+    transition-duration: .5s;
+    
+}
+
+#title:hover a{
+    background-color: black;
+    text-align: center;
+    color: rgb(232, 227, 227);
+    font-size: 32pt;
+    
+    
+}
+/* nav bar */
+ nav{
+    background-color: black;
+    font-size: 24px;
+    text-align: center;
+    
+    padding-top: 20px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden; 
+    background-color: #000;
+    text-align: center;
+    height: 60px;
+    
+  }
+  
+  nav li {
+
+    display: inline-table;
+    
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    transition-duration: .5s;
+
+  }
+  nav li a:hover {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    font-size: 26px;
+    text-decoration: none;
+    text-decoration: underline;
+    
+  }
+
+
+
+
+
